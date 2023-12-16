@@ -59,7 +59,7 @@ const AboutSection = () => {
             <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
                 <h2 className='text-4xl font-bold text-white mb-4'>About me</h2>
                 <p className='text-base lg:text-lg'>
-                    "Passionate programmer with a keen eye for detail and a love for problem-solving. Proficient in multiple programming languages, with a strong foundation in algorithm development and data structures. Excels in collaborating with cross-functional teams to deliver high-quality software solutions. Adaptable and always eager to learn new technologies to stay ahead in the rapidly evolving tech landscape. Enthusiastic about creating efficient and innovative code that addresses complex challenges. A dedicated professional committed to continuous improvement and achieving excellence in the field of software development."
+                    Passionate programmer with a keen eye for detail and a love for problem-solving. Proficient in multiple programming languages, with a strong foundation in algorithm development and data structures. Excels in collaborating with cross-functional teams to deliver high-quality software solutions. Adaptable and always eager to learn new technologies to stay ahead in the rapidly evolving tech landscape. Enthusiastic about creating efficient and innovative code that addresses complex challenges. A dedicated professional committed to continuous improvement and achieving excellence in the field of software development.
                 </p>
             </div>
             <div className='flex flex-row justify-start mt-8'>

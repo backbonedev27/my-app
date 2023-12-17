@@ -44,7 +44,7 @@ const HeroSection = () => {
             1000,
             'Web Developer',
             1000,
-            'AI Enthusiasts',
+            'AI Enthusiast',
             1000,
 
 

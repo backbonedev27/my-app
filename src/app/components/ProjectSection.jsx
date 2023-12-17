@@ -54,16 +54,7 @@ const projectsData = [
         previewUrl: "/",
 
     },
-    {
-        id: 6,
-        title: "Social Media Dashboard",
-        description: "Developed a social media dashboard with real-time updates and interactive data visualization.",
-        imgurl: "/images/portfolio/project5.jpg",
-        tags: ["All", "Web"],
-        gitUrl: "/",
-        previewUrl: "/",
 
-    }
 ]
 
 const ProjectSection = () => {

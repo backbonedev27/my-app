@@ -26,13 +26,13 @@ const TAB_DATA = [
         id: "education",
         content: (
             <ul className='list-disc pl-2'>
-                <li>Teknik Informatika</li>
+                <li>Computer Science</li>
             </ul>
         )
     },
     {
-        title: "Certification",
-        id: "certification",
+        title: "Experience",
+        id: "experience",
         content: (
             <ul className='list-disc pl-2'>
                 <li>Hacktiv</li>
@@ -59,7 +59,7 @@ const AboutSection = () => {
             <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
                 <h2 className='text-4xl font-bold text-white mb-4'>About me</h2>
                 <p className='text-base lg:text-lg'>
-                    Passionate programmer with a keen eye for detail and a love for problem-solving. Proficient in multiple programming languages, with a strong foundation in algorithm development and data structures. Excels in collaborating with cross-functional teams to deliver high-quality software solutions. Adaptable and always eager to learn new technologies to stay ahead in the rapidly evolving tech landscape. Enthusiastic about creating efficient and innovative code that addresses complex challenges. A dedicated professional committed to continuous improvement and achieving excellence in the field of software development.
+                    As a dedicated web developer, my passion for programming is driven by a meticulous attention to detail and a genuine love for problem-solving. Proficient in multiple programming languages, I have a solid foundation in algorithm development and data structures. I thrive in collaborative environments, working seamlessly with cross-functional teams to deliver high-quality software solutions. My adaptability allows me to embrace new technologies, ensuring that I stay ahead in the ever-evolving tech landscape. I am enthusiastic about crafting efficient and innovative code to address complex challenges. Committed to continuous improvement, I aspire to achieve excellence in the dynamic and ever-expanding field of software development
                 </p>
             </div>
             <div className='flex flex-row justify-start mt-8'>
@@ -82,8 +82,8 @@ const AboutSection = () => {
 
                 </TabButton>
                 <TabButton
-                    selectTab={() => handleTabchange("certification")}
-                    active={tab === "certification"}
+                    selectTab={() => handleTabchange("experience")}
+                    active={tab === "experience"}
                 >
                     {""}
                     Exprerience

@@ -47,7 +47,7 @@ const projectsData = [
     {
         id: 5,
         title: "Social Media Dashboard",
-        description: "Developed a social media dashboard with real-time updates and interactive data visualization.",
+        description: "Developed a social medias dashboard with real-time updates and interactive data visualization.",
         imgurl: "/images/portfolio/project5.jpg",
         tags: ["All", "Web"],
         gitUrl: "/",

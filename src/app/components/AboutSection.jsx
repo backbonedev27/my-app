@@ -10,14 +10,14 @@ const TAB_DATA = [
         id: "skills",
         content: (
             <ul className='list-disc pl-2'>
-                <li>Node.js</li>
+                <li>Node js</li>
                 <li>Express</li>
                 <li>Laravel</li>
-                <li>React.js</li>
-                <li>Next.js</li>
+                <li>React js</li>
+                <li>Next js</li>
                 <li>Flask API</li>
                 <li>Golang API</li>
-                <li>AI Chat Bot</li>
+                <li>Chat Bot</li>
             </ul>
         )
     },
@@ -35,6 +35,7 @@ const TAB_DATA = [
         id: "experience",
         content: (
             <ul className='list-disc pl-2'>
+                <li>Hacktiv</li>
                 <li>Hacktiv</li>
             </ul>
         )

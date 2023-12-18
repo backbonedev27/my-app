@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation'
-import DownloadButton from './Download'
+
 
 
 

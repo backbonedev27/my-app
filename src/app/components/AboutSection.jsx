@@ -38,7 +38,7 @@ const TAB_DATA = [
                 <li>Developed a fund request backend using Express.js, facilitating a streamlined process for fund submissions. Utilized Express.js to create a robust backend system for efficient handling of fund requests.</li>
                 <li>Built a multimedia web application for storing digital assets, leveraging Next.js. This dynamic and responsive web platform allows users to securely manage and organize their digital assets.</li>
                 <li>Crafted a personal portfolio website using Next.js, showcasing a diverse range of projects and integrating a contact section. This website provides a user-friendly interface to highlight professional achievements and facilitate easy communication.</li>
-                <li>Engineered a full-stack inventory management application with Laravel, ensuring effective tracking and organization of inventory items. Leveraging Laravel's backend capabilities, the application provides a scalable solution for comprehensive inventory management.</li>
+                <li>Engineered a full-stack inventory management application with Laravel, ensuring effective tracking and organization of inventory items. Leveraging Laravels backend capabilities, the application provides a scalable solution for comprehensive inventory management.</li>
                 <li>Integrated OpenAI for a chatbot using Flask, enhancing communication capabilities. Leveraged Flask to seamlessly integrate OpenAI, creating an intelligent chatbot that enhances user interactions and provides valuable information.</li>
             </ul>
         )

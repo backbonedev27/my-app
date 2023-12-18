@@ -6,9 +6,9 @@ import ProjectTag from './ProjectTag'
 const projectsData = [
     {
         id: 1,
-        title: "E-commerce Website",
-        description: "Built a fully functional e-commerce website using Next.js, React, and GraphQL.",
-        imgurl: "/images/portfolio/project1.png",
+        title: "Portfolio Website",
+        description: "Developed a fully functional website using Next.js, showcasing personal projects and including a dedicated contact section. Leveraged the power of Next.js to create a dynamic and responsive user experience. The site features a personal contact page for easy communication and a project list to highlight various completed endeavors. This project demonstrates proficiency in Next.js, providing a seamless blend of personal and professional content for visitors.",
+        imgurl: "/images/portfolio/webporto.png",
         tags: ["All", "Web"],
         gitUrl: "/",
         previewUrl: "/",
@@ -16,9 +16,9 @@ const projectsData = [
     },
     {
         id: 2,
-        title: "Blog Application",
-        description: "Developed a dynamic blog application with features like authentication, commenting, and responsive design.",
-        imgurl: "/images/portfolio/project2.jpg",
+        title: "Multimedia Application",
+        description: "Created a media storage app using Laravel's full-stack framework. Securely store and manage media files with efficient data handling and a user-friendly interface, demonstrating Laravel proficiency for reliable, scalable media asset management.",
+        imgurl: "/images/portfolio/mulmed.png",
         tags: ["All", "Web"],
         gitUrl: "/",
         previewUrl: "/",
@@ -26,29 +26,9 @@ const projectsData = [
     },
     {
         id: 3,
-        title: "Portfolio Website",
-        description: "Designed and implemented a personal portfolio website showcasing various projects and skills.",
-        imgurl: "/images/portfolio/project3.jpg",
-        tags: ["All", "Web"],
-        gitUrl: "/",
-        previewUrl: "/",
-
-    },
-    {
-        id: 4,
-        title: "Task Management App",
-        description: "Created a task management application with features such as task creation, completion tracking, and user authentication.",
-        imgurl: "/images/portfolio/project4.jpg",
-        tags: ["All", "Web"],
-        gitUrl: "/",
-        previewUrl: "/",
-
-    },
-    {
-        id: 5,
-        title: "Social Media Dashboard",
-        description: "Developed a social medias dashboard with real-time updates and interactive data visualization.",
-        imgurl: "/images/portfolio/project5.jpg",
+        title: "Inventory Management Application",
+        description: "Built a full-stack Laravel inventory management app for efficient tracking, organization, and control of items. Leveraging Laravel's backend capabilities, it ensures seamless data management with a user-friendly interface for intuitive navigation. A scalable solution tailored for diverse business inventory needs.",
+        imgurl: "/images/portfolio/inventory.png",
         tags: ["All", "Web"],
         gitUrl: "/",
         previewUrl: "/",

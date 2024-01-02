@@ -1,3 +1,4 @@
+"use client";
 import React, { useEffect } from 'react';
 
 const Footer = () => {
@@ -16,11 +17,11 @@ const Footer = () => {
             });
         };
 
-        document.head.appendChild(script);
+        document.body.appendChild(script);
 
         return () => {
             // Cleanup script when the component unmounts
-            document.head.removeChild(script);
+            document.body.removeChild(script);
         };
     }, []); // Run only once on component mount
 

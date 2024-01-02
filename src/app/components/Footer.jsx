@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 
 const Footer = () => {
     useEffect(() => {
-        const BASE_URL = "http://174.138.16.181:3000";
+        const BASE_URL = "https://omnichannel.mimin.io/";
 
         const script = document.createElement("script");
         script.src = `${BASE_URL}/packs/js/sdk.js`;

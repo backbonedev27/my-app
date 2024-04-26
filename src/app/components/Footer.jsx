@@ -12,7 +12,7 @@ const Footer = () => {
 
         script.onload = () => {
             window.chatwootSDK.run({
-                websiteToken: '7XwWVkt4acRPzJBpcEcbMi23',
+                websiteToken: 'em9YKER8b5TUsoDqGfbqecAo',
                 baseUrl: BASE_URL
             });
         };
@@ -20,15 +20,15 @@ const Footer = () => {
         document.body.appendChild(script);
 
         return () => {
-            // Cleanup script when the component unmounts
+            
             document.body.removeChild(script);
         };
-    }, []); // Run only once on component mount
+    }, []);
 
     return (
         <footer className='footer border border-t-[#33353F] border-l-transparent border-r-transparent text-white'>
             <div className='container p-12 flex justify-between'>
-                {/* Logo */}
+              
                 <span></span>
                 <p className='text-slate-600'>
                     All rights reserved.

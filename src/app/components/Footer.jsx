@@ -4,9 +4,9 @@ import React, { useEffect } from 'react';
 const Footer = () => {
     useEffect(() => {
         const BASE_URL = "https://omnichannel.mimin.io/";
-
+// 
         const script = document.createElement("script");
-        script.src = `${BASE_URL}/packs/js/sdk.js`;
+        script.src = `${BASE_URL}packs/js/sdk.js`;
         script.defer = true;
         script.async = true;
 
